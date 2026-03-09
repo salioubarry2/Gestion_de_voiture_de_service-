@@ -8,10 +8,10 @@ class Employe:
 
 
     def afficher_information(self):
-        print("Employer:", self.nom , self.prrenom)
+        print("Employer:", self.nom , self.prenom)
         print("Permis:", self.numeroPermis)
         if self.voitureService:
-            print("Voiture:", self.voitureService.marque, self.voitureService.nom, self.voitureService.matricule)
+            print("Voiture:", self.voitureService.marque, self.voitureService.matricule)
         else:
             print("Aucune voiture assignée")
 
